@@ -1,1 +1,1 @@
-5 * * * * ./backup.sh
+*/5 * * * * ./backup.sh   #every 5 minute

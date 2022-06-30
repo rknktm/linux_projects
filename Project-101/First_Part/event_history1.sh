@@ -9,3 +9,5 @@ echo "Instances' ids terminated by Serdar" >result1.txt
 echo "***********************************" >>result1.txt
 sort -r test2|uniq -c|head -17 >>result1.txt
 rm test1 test2
+
+#cat event_history.csv | grep -i serdar | grep -i TerminateInstance | grep -Eo "i-[a-zA-Z0-9]{17}" | sort | uniq
