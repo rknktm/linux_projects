@@ -1,1 +1,3 @@
 */5 * * * * ./backup.sh   #every 5 minute
+
+*/5 * * * * sudo /home/ec2-user/backup.sh
